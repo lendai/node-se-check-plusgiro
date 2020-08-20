@@ -1,0 +1,35 @@
+{
+  "name": "se-check-plusgiro",
+  "version": "1.0.0",
+  "description": "Validate swedish plusgiro account numbers",
+  "main": "./src/check-plusgiro.js",
+  "scripts": {
+    "test": "jest test"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lendai/node-se-check-plusgiro.git"
+  },
+  "keywords": [
+    "PlusGiro",
+    "Bank",
+    "Sweden",
+    "Finans",
+    "Finance"
+  ],
+  "author": "Daniel Mauno Pettersson <daniel@mauno.io> (http://mauno.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lendai/node-se-check-plusgiro/issues"
+  },
+  "homepage": "https://github.com/lendai/node-se-check-plusgiro#readme",
+  "devDependencies": {
+    "jest": "^26.4.1"
+  },
+  "dependencies": {
+    "luhn": "^2.4.1"
+  }
+}
